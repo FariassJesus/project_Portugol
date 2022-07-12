@@ -1,18 +1,22 @@
 programa {
 	funcao inicio() {
+		inteiro numero = 233
 		
-		
-		inteiro array[4] = {1, 2, 4, 5}
-		
-		
-		para (inteiro x = 0; x < 4; x++) {
-            array[x] = array[x] * 2
-        }
-        
-        
-        para (inteiro x = 0; x < 4; x++) {
-            escreva(array[x], "\n")
-        }
+		faca{
+			se(numero >= 233 e numero < 300){
+				numero += 5
+				escreva(numero, "\n")
+			}
+			senao se(numero >= 300 e numero <= 400){
+				numero += 3
+				escreva(numero, "\n")
+			}
+			senao{
+				numero += 5
+				escreva(numero, "\n")
+			}			
+		}
+		enquanto(numero <= 456)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +24,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 32; 
+ * @POSICAO-CURSOR = 40; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

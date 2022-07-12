@@ -1,18 +1,18 @@
-programa {
-	funcao inicio() {
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro mult = 3
+		real valDig = 0
+
+		escreva("Insira o valor desejado: ")
+		leia(valDig)
 		
-		
-		inteiro array[4] = {1, 2, 4, 5}
-		
-		
-		para (inteiro x = 0; x < 4; x++) {
-            array[x] = array[x] * 2
-        }
-        
-        
-        para (inteiro x = 0; x < 4; x++) {
-            escreva(array[x], "\n")
-        }
+		enquanto(valDig <= 100) {
+			valDig = valDig *  3
+			escreva("Resultado: ", valDig, "\n")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +20,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 32; 
+ * @POSICAO-CURSOR = 222; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
